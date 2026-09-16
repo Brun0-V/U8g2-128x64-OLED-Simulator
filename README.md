@@ -55,10 +55,3 @@ The simulator maps keyboard keys to u8g2's key codes so you can test menu/naviga
 - Poll with `u8g_sdl_get_key()`, same as you'd read buttons on real hardware
 
 Check `displaykit_demo.c` for an example that uses arrow keys to move through a menu.
-
-## Project layout
-
-- `main.c` — your playground, edit this
-- `displaykit_demo.c` — a more complete example (menu screen)
-- `csrc/` — the actual u8g2/u8x8 library (unmodified upstream source)
-- `sdl/` — the SDL glue: the fake "display driver" (`u8x8_d_sdl_128x64.c`) and keyboard handling (`u8x8_sdl_key.c`)
