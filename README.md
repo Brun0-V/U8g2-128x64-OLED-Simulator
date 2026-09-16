@@ -2,6 +2,9 @@
 
 Run [u8g2](https://github.com/olikraus/u8g2) drawing code on your desktop instead of real hardware, using SDL2 as a simulated 128x64 display. Useful for writing/testing display UI without an ESP32 or Arduino plugged in.
 
+![Hello World](image.png)
+
+
 ## Requirements
 
 - A C compiler (gcc/clang)
